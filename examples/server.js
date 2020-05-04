@@ -1,18 +1,17 @@
-'use strict'
+'use strict';
 
-var AirTunesServer = require('../index')
-var Speaker = require('speaker')
-var mdns = require('mdns')
+var AirTunesServer = require('../index');
+var Speaker = require('speaker');
 
 var speaker = new Speaker({
   channels: 2,
   bitDepth: 16,
   sampleRate: 44100,
-})
-var server = new AirTunesServer({ serverName: 'NodeTunes Speaker', mdns })
+});
+var server = new AirTunesServer({ serverName: 'NodeTunes Speaker' });
 
-server.on('clientConnected', function (stream) {
-  stream.pipe(speaker)
-})
+server.on('clientConnected', function(stream) {
+  stream.pipe(speaker);
+});
 
-server.start()
+server.start();
