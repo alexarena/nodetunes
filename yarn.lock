@@ -2155,7 +2155,7 @@ map-stream@^0.1.0:
   resolved "https://registry.yarnpkg.com/map-stream/-/map-stream-0.1.0.tgz#e56aa94c4c8055a16404a0674b78f215f7c8e194"
   integrity sha1-5WqpTEyAVaFkBKBnS3jyFffI4ZQ=
 
-mdns@^2.2.10:
+mdns@^2.5.x:
   version "2.5.1"
   resolved "https://registry.yarnpkg.com/mdns/-/mdns-2.5.1.tgz#f66d199de26dc372740f9c84c9b95db432a4fc46"
   integrity sha512-JglS7Ed3Yf0BCpyC7LXA1MUrumMV8jj4g67nT3+m886SFYllz2HWBg8ObywFXWbBSv5gW0meMOOS4vVa2jZGCw==
