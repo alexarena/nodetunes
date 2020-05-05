@@ -21,11 +21,13 @@
     "url": "https://github.com/stephen/nodetunes.git"
   },
   "dependencies": {
-    "alac2pcm": "^1.1.0",
+    "alac": "^0.1.0",
+    "av": "^0.4.9",
     "debug": "^2.1.0",
     "forge": "^2.2.0",
     "httplike": "^1.0.2",
     "ipaddr.js": "^1.0.1",
+    "libalac": "https://github.com/alexarena/node-libalac.git",
     "mdns": "^2.5.x",
     "metricstream": "0.0.0",
     "node-forge": "^0.6.16",
@@ -33,15 +35,15 @@
     "priorityqueuejs": "0.2.0",
     "random-mac": "0.0.4",
     "randomstring": "1.0.3",
-    "readable-stream": "^2.0.2"
+    "readable-stream": "^3.6.0",
+    "xtend": "^4.0.2"
   },
   "devDependencies": {
     "gulp": "~3.6.2",
     "gulp-jscs": "^2.0.0",
     "gulp-mocha": "~0.4.1",
     "mocha": "~1.18.2",
-    "request": "~2.34.0",
-    "speaker": "0.2.6"
+    "request": "~2.34.0"
   },
   "license": "MIT"
 }

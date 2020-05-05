@@ -1,12 +1,12 @@
-'use strict';
+'use strict'
 
-var AirTunesServer = require('../index');
-var Speaker = require('speaker');
+var AirTunesServer = require('../index')
+// var Speaker = require('speaker');
 
-var server = new AirTunesServer({ serverName: 'NodeTunes Stdout' });
+var server = new AirTunesServer({ serverName: 'NodeTunes Stdout' })
 
-server.on('clientConnected', function(stream) {
-  stream.pipe(process.stdout);
-});
+server.on('clientConnected', function (stream) {
+  stream.pipe(process.stdout)
+})
 
-server.start();
+server.start()
