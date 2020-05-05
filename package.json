@@ -22,7 +22,6 @@
   },
   "dependencies": {
     "alac": "^0.1.0",
-    "av": "^0.4.9",
     "debug": "^2.1.0",
     "forge": "^2.2.0",
     "httplike": "^1.0.2",
