@@ -1828,7 +1828,7 @@ levn@~0.3.0:
 
 "libalac@https://github.com/alexarena/node-libalac.git":
   version "0.1.2"
-  resolved "https://github.com/alexarena/node-libalac.git#f4eb4176db9fee95ff9fd60d290ca1eea361c6f9"
+  resolved "https://github.com/alexarena/node-libalac.git#99e8ebe2d08a72bb776939f3aa7e92a6185618b1"
   dependencies:
     nan "^2.14.1"
 
