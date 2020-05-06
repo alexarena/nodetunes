@@ -12,11 +12,6 @@ acorn@^5.2.1:
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.7.4.tgz#3e8d8a9947d0599a1796d10225d7432f4a4acf5e"
   integrity sha512-1D++VG7BhrtvQpNbBzovKNc1FLGGEE/oGe7b9xJm/RFHMBeUaUGpluV9RLjZa47YFdPcDAenEYuq9pQPcMdLJg==
 
-alac@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/alac/-/alac-0.1.0.tgz#da1bf3bd5d0801d019fc389c4caf8cab85bafd13"
-  integrity sha1-2hvzvV0IAdAZ/DicTK+Mq4W6/RM=
-
 align-text@^0.1.1, align-text@^0.1.3:
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/align-text/-/align-text-0.1.4.tgz#0cd90a561093f35d0a99256c22b7069433fad117"
